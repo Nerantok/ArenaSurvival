@@ -1,49 +1,43 @@
-# Указанные папки и файлы
-Assets/
-Packages/
-ProjectSettings/
-README.md
-.gitignore
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Ll]ogs/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Uu]ser[Ss]ettings/
 
-# Стандартные исключения Unity
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
-[Mm]emoryCaptures/
-[Rr]ecordings/
+# Memory captures
+/[Mm]emoryCaptures/
 
-# Автогенерируемые файлы Visual Studio / Rider / VS Code
+# Asset metadata should NOT be ignored
+# *.meta must be committed
+
+# Visual Studio / Rider / IDE files
 .vs/
 .idea/
 .vscode/
 *.csproj
-*.unityproj
 *.sln
 *.suo
 *.user
 *.userprefs
 *.pidb
 *.booproj
-*.svd
-*.pdb
-*.mdb
-*.opendb
-*.VC.db
 
-# Сборки
-*.apk
-*.aab
-*.unitypackage
-*.app
-
-# Крэш-репорты
-sysinfo.txt
-crashlytics-build.properties
-
-# OS файлы
+# OS files
 .DS_Store
 Thumbs.db
+
+# Crash reports
+sysinfo.txt
+
+# Unity Addressables generated content
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Build outputs
+*.apk
+*.aab
+*.app
+*.exe
+*.unitypackage
